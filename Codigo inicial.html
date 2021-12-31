@@ -1,0 +1,117 @@
+ <!DOCTYPE html> 
+ 
+<html>  
+<head>  
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="description" content="portal de peliculas"/>
+  <meta name="keywords" content="peliculas,portal,trailers,actores"/>
+  
+  <title>Películas</title> 
+  <link rel="shortcut icon" href="Imagenes/EmpleoTecnia icono.ico" type="image/x-icon">
+
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+
+<header id="cabeceraweb">
+  <img src="Imagenes/EmpleoTecnia.png">
+  <nav id="navegacionprincipal">
+    <ul>
+      <li>Películas</li>
+      <li>Estrenos</li>
+      <li>Suscripción</li>
+    </ul>
+  </nav>
+</header>
+
+<section id="presentacion">
+  <div class="bienvenida">
+    <h1>Portal de Películas</h1>
+    <h3>Traemos las mejores películas</h3>
+  </div>
+</section>
+
+<section id="contenidoprincipal">
+  <h1>Películas</h1>
+  <hr>
+  <h3>Las pelis más recomendadas</h3>
+
+  <div class="contenedor">
+    <div class="galeria">
+      <div class="lista_categorias">
+        <a href="#" class="categoria" category="todos">Todos</a>
+        <a href="#" class="categoria" category="animada">Animada</a>
+        <a href="#" class="categoria" category="biografia">Biografía</a>
+        <a href="#" class="categoria" category="comedia">Comedia</a>
+        <a href="#" class="categoria" category="drama">Drama</a>
+      </div>
+      <section class="lista_productos">
+        <div class="producto" category="drama">
+          <figure>
+            <img src="Imagenes/Atrapame si puedes.jpg">
+            <figcaption>Atrápame si puedes</figcaption>
+          </figure>
+        </div>
+        <div class="producto" category="biografia">
+          <figure>
+            <img src="Imagenes/Bohemian Rhapsody.jpg">
+            <figcaption>Bohemian Rhapsody</figcaption>
+          </figure>
+        </div>
+        <div class="producto" category="drama">
+          <figure>
+            <img src="Imagenes/Jojo Rabbit.jpg">
+            <figcaption>Jojo Rabbit</figcaption>
+          </figure>
+        </div>
+        <div class="producto" category="drama">
+          <figure>
+            <img src="Imagenes/Joker.jpg">
+            <figcaption>Joker</figcaption>
+          </figure>
+        </div>
+        <div class="producto" category="animada">
+          <figure>
+            <img src="Imagenes/Toy Story 4.jpg">
+            <figcaption>Toy Story 4</figcaption>
+          </figure>
+        </div>
+        <div class="producto" category="comedia">
+          <figure>
+            <img src="Imagenes/Una esposa de mentira.jpg">
+            <figcaption>Una esposa de mentira</figcaption>
+          </figure>
+        </div>
+
+      </section>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<footer id="pieprincipal">
+  <form>
+  <h2>Formulario de Suscripción</h2>
+
+    <label>Email: </label>
+    <input type="email" required>
+    <label>Nombre: </label>
+    <input type="text" required>
+    <label>Edad: </label>
+    <input type="number" min="18" max="100" required> <br><br>
+    <input type="checkbox">Acepto recibir novedades sobre estrenos <br><br>
+    <input type="submit" value="Enviar">
+    
+  </form>
+</footer>
+
+</body>
+</html> 
